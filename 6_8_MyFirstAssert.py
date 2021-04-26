@@ -3,9 +3,9 @@ from selenium import webdriver
 
 browser = webdriver.Chrome()
 # на этой ссылке скрипт успешно проходит
-# link = "http://suninjuly.github.io/registration1.html"
+link = "http://suninjuly.github.io/registration1.html"
 # на этой ссылке скрипт падает с ошибкой NoSuchElementException
-link = "http://suninjuly.github.io/registration2.html"
+#link = "http://suninjuly.github.io/registration2.html"
 
 try:
     browser.get(link)
